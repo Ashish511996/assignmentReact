@@ -1,0 +1,120 @@
+ASSIGNMENT1:
+
+1. EMMET:emmet is a plugin for many popular text editors which helps in writing HTML code for your webpage.It is an essential toolkit for web-developers.Emmet takes the concept to the next
+ level,where snippets codes are CSS-like expressions that are dynamically parsed and output depends on what is typed in emmet abbreviations.
+
+The syntax of these abbreviations are inspired by CSS and these abbreviations are parsed in runtime transformed into a structural HTML code block. EMMET is specially developed and optimized 
+for web-developers whose workflow depends on HTML/XML and CSS, but can be used with other programming language too.As emmet is written in pure javaScript , so it works across different
+ platforms like web browsers, Node.js,Microsoft WSH etc.
+
+2. Library vs Framework:
+
+       
+              Library                                                                                                     Framework
+.Library provides developes with predefined functions and classes                       framework , on the other hand, is like the functions upon which developers build application for 
+to make their work easier and boost the process.                                        specific platforms.
+
+INVERSION OF CONTROL:
+By using a library, you can control the flow of the application and                     In contrast, when you use a framework, the control is inverted, i.e., the framework controls the 
+call the library.                                                                       flow and calls your code.
+
+COLLECTION:
+Generally libraries are a collection of helper modules,objects,classes                  Frameworks consist of a lot of APIs,compilers,toolsets,support programs, libraries,etc
+functions,message templates,pre-written code,etc
+
+SCOPE:
+It is possible to call a library out of context.You may use the library                 You can only call and use what belongs to a framework within the same framework.
+whenever you see fit in your code.
+
+FUNCTIONS:
+In the program linking and binding process, they play an important role.                Using them , you can build and deploy applications in a standard way as the framework already 
+                                                                                        provides code to perform common tasks and uses code provided by a developer for custom 
+                                                                                        functionality.
+
+USAGES:
+The purpose of libraries is to perform a defined and specific tasks.                    Frameworks can be used for performing a wide range of tasks.Among these are web application systems,
+EXAMPLE-Image manipulation , network protocols, math operations,etc                     plug-in managers,GUI Systems,etc
+
+BENIFITS:
+Good code quality, reusabilty, and control,enhanced speed and performance               Faster programming,support from the community,great support for MVC(MODEL VIEW CONTROLLER PATTERN),
+of the program,etc                                                                       etc                                                                                        
+                                                                                
+EXAMPLE:
+JQuery,ReactJS,etc                                                                      Spring,NodeJS,AngularJS,VueJS,etc
+
+3.CDN:
+A content delivery Network(CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of internet content.
+
+A CDN allows for the quick transfer of assets needed for loading internet content needed for loading internet content including HTML pages, javascript files stylesheets,images, and videos.
+The popularity of CDN Services continues to grow , and today the majority of web traffic from major sites like facebook,netflix and amazon.
+
+A properly configured CDN may also help protect websites against some common malicious attacks , such as Distributed Denial of Services (DDOS) attacks.
+
+Benifits of CDN:
+-improving website load times 
+-reducing bandwidth costs 
+-increasing content avaibility and redundency 
+-improving website security
+
+4. Why is react known as react?
+Commonly known as React, it gives resources for developing reusable and easily integrable UI component that reduce development times and provide a responsive user interface for website,
+such as a button , a link , menu tabs or search bars.
+REACT FUNCTIONALITY:
+React is easier to learn compared to Angular React has a large development Community.React offers reusable components .Jsx increases the performance and efficiency of ReactJS.
+Efficiency Debugging and error-checking with unidirectional Data Flow.
+Redux maintains Data Consistency across all components.
+
+5.Crossorigin in script tag
+The HTML <script> crossorigin Attribute is used for loading an external script into their domain from a third party server or another doamin with the support of HTTP CORS Request . This 
+attribute is used to protect sensitive information from the third party when fetching out the results.
+
+Cross-Origin Resource Sharing (CORS) is a tool that allows web pages requesting for resources from another domain thst is outside of their own domain that is outside of their own domain. 
+is also used for managing cross-origin reuests which is a request for a resource from an outside domain.
+
+SYNTAX:
+<Script crossorigin="anonymous | use-credentials">
+
+6.React and ReactDOM:
+React: The react package holds the react source for components, state, props and all that is react.
+
+The react-dom package as the name implies is the glue between React and the DOM. Often, you will only use it for one single thing: 
+monitoring your application to the index.html file with ReactDOM.render()
+
+:- The reason React and ReactDOM were split into two libraries was due to arrival of React Native (A react platform for mobile development).
+
+React component are such a great way to organise UI  that it has now spread to mobile to react is used in web and in mobile .ReactDOM is only used in web applications.
+
+7.react.development.js   vs    react.production.js
+
+The development build is used as the name suggests for development reason.You have source Maps,debugging and often times hot reloading ability in those builds.
+
+The production build , on the other hand, runs in production mode which means this is the code running on your clients machine. The production build runs uglify and builds your source
+files into one or multiple minimized files.It also extracts CSS and images and ofcourse any other source you're loading with webpack.There's also no hot reloading included as seperate files 
+depending on your webpack devtool.
+
+8. async and defer:
+
+async:The async attribute is somewhat like defer. it also makes the script non-blocking.But, it has important differences in the begaviour.
+
+The async attribute means that a script is completely independent.
+-The browser doesn't block on async scripts scripts(like defer)
+-Other scripts doesn't wait for async scripts doesn't wait for them.
+-DOMContentLoaded and async scripts doesn't wait for each-other.
+DOMContentLoaded may happen both before an async script (if an async scripts finishes loading after the page is completely.
+
+or after an async script (if an async script is short or was in HTTP-Cache.
+
+THE ASYNC ATTRIBUTE IS ONLY FOR EXTERNAL SC SCRIPTS.Just like defer, the async attribute is ignored if the <script>tag has no src.
+
+defer:The defer attribute tells the browser not to wait for the scripts. Instead , the browser will continue to process the HTML , build DOM . The script loads "in the background", and 
+then runs when the DOM is fully built.
+
+Script with defer never block the page.
+Script with defer always execute when the DOM is ready(but before DOMContentLoaded event).
+
+THE DEFER ATTRIBUTE IS ONLY FOR EXTERNAL SCRIPTS.THE DEFER ATTRIBUTE IS IGNORED IF THE <script> TAG HAS NO src.
+
+THANKS & REGARDS
+ASHISH ANAND 
+(7488005607)
+
